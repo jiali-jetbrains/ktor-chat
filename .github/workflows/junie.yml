@@ -1,4 +1,4 @@
-name: Official Junie GitHub Action
+name: Junie
 
 on:
   issue_comment:
@@ -30,6 +30,6 @@ jobs:
 
       - name: Run Junie
         id: junie
-        uses: JetBrains/junie-github-action@v1.5.8
+        uses: JetBrains/junie-github-action@v1
         with:
           junie_api_key: ${{ secrets.JUNIE_API_KEY }}
