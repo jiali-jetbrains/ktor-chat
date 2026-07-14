@@ -1,4 +1,5 @@
-name: Junie
+name: Official Junie GitHub Action
+uses: JetBrains/junie-github-action@v1.5.8
 
 on:
   issue_comment:
