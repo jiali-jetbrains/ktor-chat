@@ -59,8 +59,8 @@ Here is a list of the commands for running each program:
 
 | application | main source                       | gradle command                  |
 |-------------|-----------------------------------|---------------------------------|
-| server-rest | `server/rest/src/Application.kt`  | `./gradlew :server:rest:run`    |
-| desktop app | `app/desktop/src/main.kt`         | `./gradlew :app:desktop:jvmRun` |
+| server-rest | `server/rest/src/main/kotlin/Application.kt`  | `./gradlew :server:rest:run`    |
+| desktop app | `app/desktop/src/main/kotlin/main.kt`         | `./gradlew :app:desktop:Run` |
 | android app | `app/android/src/MainActivity.kt` |                                 |
 
 ### With Docker
