@@ -44,3 +44,4 @@ ios/Pods
 ios/KtorChat.xcodeproj
 ios/KtorChat.xcworkspace
 server/rest/docs
+kotlin-js-store/

@@ -59,7 +59,7 @@ Here is a list of the commands for running each program:
 
 | application | main source                       | gradle command                  |
 |-------------|-----------------------------------|---------------------------------|
-| server-rest | `server/rest/src/Application.kt`  | `./gradlew :server:rest:run`    |
+| server-rest | `server/rest/src/main/kotlin/Main.kt`  | `./gradlew :server:rest:run`    |
 | desktop app | `app/desktop/src/main.kt`         | `./gradlew :app:desktop:jvmRun` |
 | android app | `app/android/src/MainActivity.kt` |                                 |
 
